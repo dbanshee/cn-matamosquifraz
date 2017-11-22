@@ -1,0 +1,59 @@
+################################
+# cn_matamosquifraz 
+#
+# Project Description Document
+# ClauNoel MataMosquiFraz
+#
+# claunoel 2017
+################################
+
+
+* Description
+
+  Disfraz representando lampara matamosquitos con luz, sonido zumbador, controles de gestion y alimentación autónoma.
+  
+  
+* Esquema Básico
+
+   
+=================== <---------> Centralita   <------> Interfaz de Control  (Botonera Fisica, App Android)
+  (Tira de Leds RGB)                   |_____<------> Sonido               (Altavoz, Zumbador)
+                                       \_____<------> Fuente Alimentacion  (Bateria, recarga)
+
+  
+* Hardware
+
+   - Centralita
+      . Arduino ATmega32U4 Micro USB 5V 16 MHz
+      
+    - Leds
+      . WS2812B RGB Leds Strip (Datasheet en doc/datasheets) Libreria NeoPixel Adafruit.
+      
+    - Fuente Alimentacion
+      TODO
+      
+    . Sonido
+      TODO
+      
+    - Interfaz de Control
+    
+      . Botonera Fisica
+        TODO
+        
+      . Control Wireless                        (Opcion)
+        
+        + Interfaz Bluetooth BLE / Wifi         (Opcion)
+          TODO
+        
+        + App Android                           (Opcion)
+          TODO
+   
+        + Control Smartwatch                    (Opcion)
+          TODO
+  
+  
+  
+* Temas estudio
+
+ - Consumo/autonomia (Leds, altavoz e interfaz de control)
+ 
