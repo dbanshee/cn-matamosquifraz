@@ -30,7 +30,21 @@
       . WS2812B RGB Leds Strip (Datasheet en doc/datasheets) Libreria NeoPixel Adafruit.
       
     - Fuente Alimentacion
-      TODO
+        . Baterias
+        
+          https://es.aliexpress.com/wholesale?catId=0&initiative_id=AS_20171123081530&isPremium=y&SearchText=lipo+battery+3.7v+2000mah
+        
+        . Conversor de voltaje
+          
+            Conversor Boost : https://es.wikipedia.org/wiki/Convertidor_Boost 
+          oo
+            Ejemplo : WAVGAT 0.9-5 V A 5 V DC-DC Step-Up Boost : 
+            
+              https://es.aliexpress.com/store/product/WAVGAT-0-9-5V-To-5V-DC-DC-Step-Up-Power-Module-Voltage-Boost-Converter-Board/1948124_32820344531.html?spm=a219c.search0204.3.8.PNzhjJ&s=p&ws_ab_test=searchweb0_0%2Csearchweb201602_3_10152_10065_10151_10344_10068_10345_10342_10547_10343_10340_10548_10341_10542_10541_10562_10084_10083_10307_10301_10303_10176_10539_10312_10059_10313_10314_10184_10534_10533_100031_10103_10594_10557_10596_10595_10142_10107%2Csearchweb201603_25%2CppcSwitch_5_ppcChannel&btsid=2322af05-499a-4521-8499-f75fb434a24d&rmStoreLevelAB=3
+        
+        . Cargador Bateria
+        
+          https://es.aliexpress.com/store/product/10pcs-TP4056-1A-Lipo-Battery-Charging-Board-Charger-Module-lithium-battery-DIY-Mini-USB-Port-Free/428030_32371403256.html?spm=a219c.search0204.3.1.MMO1XQ&ws_ab_test=searchweb0_0,searchweb201602_3_10152_10065_10151_10344_10068_10345_10342_10547_10343_10340_10548_10341_10542_10541_10562_10084_10083_10307_10301_10303_10176_10539_10312_10059_10313_10314_10184_10534_10533_100031_10103_10594_10557_10596_10595_10142_10107,searchweb201603_25,ppcSwitch_5_ppcChannel&btsid=032f03c5-faad-4b11-98d9-8e265896d242&algo_expid=7853365e-2b5d-4774-9dc4-358368825433-0&algo_pvid=7853365e-2b5d-4774-9dc4-358368825433&rmStoreLevelAB=3
       
     . Sonido
       TODO
@@ -56,4 +70,12 @@
 * Temas estudio
 
  - Consumo/autonomia (Leds, altavoz e interfaz de control)
+ 
+    Segun especificaciones el consumo es de 9W (30 leds) --> 9Wh
+    (Wh)*1000/(V) = (mAh) --> mAh = (9*1000) / 5 = 1800 mAh
+    Medir consumo en tira real.
+    
+ 
+ 
+* URLs y conceptos 
  
